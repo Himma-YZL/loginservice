@@ -1,4 +1,6 @@
-#### feign
+server:
+  port: 9002
+# feign
 feign:
   client:
     config:
