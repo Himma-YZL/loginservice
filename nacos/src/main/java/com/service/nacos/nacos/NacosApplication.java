@@ -15,6 +15,7 @@ public class NacosApplication {
         SpringApplication.run(NacosApplication.class, args);
     }
 
+    //启动RestTemplate负载均衡支持，添加 @LoadBlanced 注解，使得 RestTemplate 接入 Ribbon
 //    @LoadBalanced
 //    @Bean
 //    public RestTemplate restTemplate() {

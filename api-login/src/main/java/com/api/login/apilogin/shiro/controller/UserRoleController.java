@@ -10,6 +10,7 @@ import com.api.login.apilogin.shiro.service.IUserService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -37,6 +38,7 @@ public class UserRoleController {
     @Autowired
     IUserService userService;
 
+    @RequiresPermissions("add")
     @PostMapping("/addUserRole")
     @ApiOperation(value = "新增用户角色配置")
     public String addUserRole(String userName,String role){

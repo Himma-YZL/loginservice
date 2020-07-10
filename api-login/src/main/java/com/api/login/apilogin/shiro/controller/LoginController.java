@@ -13,9 +13,12 @@ import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
 import java.util.concurrent.TimeUnit;
 
 @Slf4j
@@ -23,20 +26,26 @@ import java.util.concurrent.TimeUnit;
 @Api(tags = "登录接口")
 public class LoginController {
 
-    @Value("${redis.host}")
-    private String host;
+    @Value("${server.port}")
+    private String port;
 
     @Autowired
     private RedisTemplate redisTemplate;
 
     @PostMapping("/login")
     @ApiOperation(value = "登录")
-    public ResultDTO<User> login(String userName , String password){
-        log.info("------------------{}---------------------", host);
+    public ResultDTO<User> login(String userName , String password, HttpServletRequest request){
+        log.info("------------------{}---------------------", port);
         JSONObject jsonObject = new JSONObject();
         ResultDTO<User> resultDTO = new ResultDTO<>();
+//        Cookie[] cookies = request.getCookies();
         Subject subject = SecurityUtils.getSubject();
+//        boolean remembered = subject.isRemembered();
+//        if (remembered){
+//
+//        }
         UsernamePasswordToken usernamePasswordToken = new UsernamePasswordToken(userName,password);
+//        usernamePasswordToken.setRememberMe(remembered);
         try {
             subject.login(usernamePasswordToken);
         } catch (UnknownAccountException uae) {
@@ -46,6 +55,7 @@ public class LoginController {
             resultDTO.setCode("500");
             resultDTO.setMessage("未知账户");
             resultDTO.setSuccess("false");
+            log.info("当前访问的端口->{}",port);
             return resultDTO;
         } catch (IncorrectCredentialsException ice) {
             jsonObject.put("flag","ERROR");
@@ -54,6 +64,7 @@ public class LoginController {
             resultDTO.setCode("500");
             resultDTO.setMessage("密码不正确");
             resultDTO.setSuccess("false");
+            log.info("当前访问的端口->{}",port);
             return resultDTO;
 //            return jsonObject;
         } catch (LockedAccountException lae) {
@@ -63,6 +74,7 @@ public class LoginController {
             resultDTO.setCode("500");
             resultDTO.setMessage("账户已锁定");
             resultDTO.setSuccess("false");
+            log.info("当前访问的端口->{}",port);
             return resultDTO;
 //            return jsonObject;
         } catch (ExcessiveAttemptsException eae) {
@@ -72,6 +84,7 @@ public class LoginController {
             resultDTO.setCode("500");
             resultDTO.setMessage("用户名或密码错误次数过多");
             resultDTO.setSuccess("false");
+            log.info("当前访问的端口->{}",port);
             return resultDTO;
 //            return jsonObject;
         } catch (AuthenticationException ae) {
@@ -81,6 +94,7 @@ public class LoginController {
             resultDTO.setCode("500");
             resultDTO.setMessage("用户名或密码不正确");
             resultDTO.setSuccess("false");
+            log.info("当前访问的端口->{}",port);
             return resultDTO;
 //            return jsonObject;
         }
@@ -97,6 +111,7 @@ public class LoginController {
             resultDTO.setMessage("登录成功");
             resultDTO.setSuccess("true");
             resultDTO.setData(userInfo);
+            log.info("当前访问的端口->{}",port);
             return resultDTO;
 //            return jsonObject;
         }else {
@@ -106,6 +121,7 @@ public class LoginController {
             resultDTO.setCode("500");
             resultDTO.setMessage("登录失败");
             resultDTO.setSuccess("false");
+            log.info("当前访问的端口->{}",port);
             return resultDTO;
 //            return jsonObject;
         }
@@ -116,5 +132,10 @@ public class LoginController {
     public String loginOut(){
         ShiroUtil.logout();
         return "退出登录";
+    }
+
+    @GetMapping("/nacos/test")
+    String nacosFeignTest() {
+        return "Nacos Test";
     }
 }

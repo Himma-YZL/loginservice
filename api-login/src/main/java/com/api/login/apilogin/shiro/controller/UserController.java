@@ -31,6 +31,7 @@ public class UserController {
     IUserService userService;
 
     @RequiresUser
+    @RequiresPermissions("add")//有add权限才可以访问该接口
     @PostMapping("/addUser")
     @ApiOperation(value = "新增/注册用户")
     public String addUser(User user){
@@ -45,6 +46,10 @@ public class UserController {
         }
     }
 
+    /**
+     * 有add权限才可以访问该接口
+     * @return
+     */
     @RequiresPermissions("add")
     @GetMapping("/getUserPermission")
     @ApiOperation(value = "校验用户是否有user-add权限接口")
