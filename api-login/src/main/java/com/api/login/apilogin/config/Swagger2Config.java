@@ -23,7 +23,7 @@ public class Swagger2Config {
     private final static String TITLE = "SpringBoot Shiro";
     private final static String VERSION = "V1.0";
     private final static String DESCRIPTION = "API在线文档";
-    private final static String BASEPACKAGE = "com.springboot.shiro.springbootshiro.shiro.controller";
+    private final static String BASEPACKAGE = "com.api.login.apilogin.shiro.controller";
 
     /**
      * 通过 createRestApi函数来构建一个DocketBean

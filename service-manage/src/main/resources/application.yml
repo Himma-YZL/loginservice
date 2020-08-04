@@ -29,6 +29,7 @@ feign:
     enabled: true
     max-connections: 200
     max-connections-per-route: 50
+#解决hystrix段容器默认1秒超时问题
 hystrix:
   command:
     default:

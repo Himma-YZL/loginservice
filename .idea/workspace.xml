@@ -1,16 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b56f029f-d83c-45b8-81cb-4e42b215d7ac" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="b56f029f-d83c-45b8-81cb-4e42b215d7ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/loginservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-gateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-gateway/src/main/java/com/service/gateway/servicegateway/ServiceGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-gateway/src/test/java/com/service/gateway/servicegateway/ServiceGatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-login/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-login/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-login/src/main/java/com/api/login/apilogin/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-login/src/main/java/com/api/login/apilogin/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-login/src/main/java/com/api/login/apilogin/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-login/src/main/java/com/api/login/apilogin/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-manage/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-manage/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -21,65 +59,110 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="E:/maven/maven/apache-maven-3.6.0" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/maven/apache-maven-3.6.0" />
         <option name="userSettingsFile" value="E:\maven\maven\apache-maven-3.6.0\conf\settings .xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1e7UPXTDQmSacWlPmk2DKu8xQZP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/login-service/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.api.login.apilogin.realm" />
+      <recent name="com.api.login.apilogin.shiro.service.impl" />
+      <recent name="com.api.login.apilogin.shiro.service" />
+      <recent name="com.api.login.apilogin.shiro.entity" />
+      <recent name="com.api.login.apilogin.shiro.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\loginservice\login-service\src\main\resources" />
+      <recent name="E:\project\loginservice\api-login\src\main\resources" />
+      <recent name="E:\project\loginservice\api-login\src\main\java\com\api\login\apilogin" />
+      <recent name="E:\project\loginservice\api-login\src\main\java\com\api\login\apilogin\shiro" />
+      <recent name="E:\project\loginservice\api-login\src\main\java\com\api\login\apilogin\utils" />
+      <recent name="E:\project\loginservice\service-manage\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LoginServiceApplication">
-    <configuration name="ConsulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="consul" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.service.consul.consul.ConsulApplication" />
+  <component name="RunManager" selected="Spring Boot.NacosApplication">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.api.login.apilogin.utils.CodeGenerator" />
+      <module name="api-login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.api.login.apilogin.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="login-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.service.login.loginservice.LoginServiceApplication" />
+    <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.service.feign.servicemanage.controller.FileTest" />
+      <module name="service-manage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.service.feign.servicemanage.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Files" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.service.feign.servicemanage.controller.Files" />
+      <module name="service-manage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.service.feign.servicemanage.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiLoginApplication " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="api-login" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.api.login.apilogin.ApiLoginApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,6 +174,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.service.ribbon.ribbon.RibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.service.gateway.servicegateway.ServiceGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceManageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-manage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.service.feign.servicemanage.ServiceManageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CodeGenerator" />
+      <item itemvalue="Application.Files" />
+      <item itemvalue="Application.FileTest" />
+      <item itemvalue="Spring Boot.ApiLoginApplication " />
+      <item itemvalue="Spring Boot.NacosApplication" />
+      <item itemvalue="Spring Boot.ServiceManageApplication" />
+      <item itemvalue="Spring Boot.RibbonApplication" />
+      <item itemvalue="Spring Boot.ServiceGatewayApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FileTest" />
+        <item itemvalue="Application.Files" />
+        <item itemvalue="Application.CodeGenerator" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -103,11 +224,140 @@
       <option name="presentableId" value="Default" />
       <updated>1593672100859</updated>
       <workItem from="1593672104151" duration="3415000" />
-      <workItem from="1593675838212" duration="6479000" />
+      <workItem from="1593675838212" duration="8049000" />
+      <workItem from="1593757507758" duration="2722000" />
+      <workItem from="1593995524364" duration="13795000" />
+      <workItem from="1594087985089" duration="28576000" />
+      <workItem from="1594370232191" duration="7312000" />
+      <workItem from="1594627735566" duration="1561000" />
+      <workItem from="1594630198916" duration="1800000" />
+      <workItem from="1594956310377" duration="1390000" />
+      <workItem from="1595314546263" duration="1221000" />
+      <workItem from="1595470424532" duration="735000" />
+      <workItem from="1596182041210" duration="3874000" />
+      <workItem from="1596416149615" duration="700000" />
+      <workItem from="1596443906432" duration="90000" />
+      <workItem from="1596444018132" duration="1196000" />
+      <workItem from="1596458132204" duration="309000" />
+      <workItem from="1596458491142" duration="596000" />
+      <workItem from="1596501895449" duration="3703000" />
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1594034555299</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594034555299</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add">
+      <created>1594118365152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594118365152</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add:新增熔断和负载均衡">
+      <created>1594378668114</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594378668114</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <MESSAGE value="add:新增熔断和负载均衡" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:新增熔断和负载均衡" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1741" height="702" key="GridCell.Tab.0.bottom" timestamp="1596416114077">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="702" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1596416114077" />
+    <state width="1741" height="702" key="GridCell.Tab.0.center" timestamp="1596416114077">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="702" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1596416114077" />
+    <state width="1741" height="702" key="GridCell.Tab.0.left" timestamp="1596416114077">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="702" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1596416114077" />
+    <state width="1741" height="702" key="GridCell.Tab.0.right" timestamp="1596416114077">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="702" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1596416114077" />
+    <state width="1741" height="702" key="GridCell.Tab.1.bottom" timestamp="1596416114077">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="702" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1596416114077" />
+    <state width="1741" height="702" key="GridCell.Tab.1.center" timestamp="1596416114077">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="702" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1596416114077" />
+    <state width="1741" height="702" key="GridCell.Tab.1.left" timestamp="1596416114077">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="702" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1596416114077" />
+    <state width="1741" height="702" key="GridCell.Tab.1.right" timestamp="1596416114077">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="702" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1596416114077" />
+    <state x="760" y="274" key="SettingsEditor" timestamp="1596522807084">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="760" y="274" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1596522807084" />
+    <state x="654" y="310" key="new project wizard" timestamp="1596507808436">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="654" y="310" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1596507808436" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/service-manage/src/main/java/com/service/feign/servicemanage/controller/LoginFeignController.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/api-login/src/main/java/com/api/login/apilogin/shiro/controller/LoginController.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../maven/LocalWarehouse/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18-sources.jar!/com/netflix/hystrix/AbstractCommand.java</url>
+          <line>996</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-login/src/main/java/com/api/login/apilogin/shiro/controller/LoginController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/service-manage/src/main/java/com/service/feign/servicemanage/service/LoginFeignService.java</url>
+          <line>14</line>
+          <properties class="com.service.feign.servicemanage.service.LoginFeignService" method="login" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

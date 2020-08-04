@@ -3,9 +3,11 @@ server:
 
 spring:
   application:
+    #注册服务名称
     name: nacos-service
   cloud:
     nacos:
       discovery:
+        #注册服务地址
         server-addr: 127.0.0.1:8848
 
